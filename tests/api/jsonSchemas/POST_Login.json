@@ -1,0 +1,35 @@
+{
+  "type": "object",
+  "properties": {
+    "userId": {
+      "type": "string"
+    },
+    "username": {
+      "type": "string"
+    },
+    "password": {
+      "type": "string"
+    },
+    "token": {
+      "type": "null"
+    },
+    "expires": {
+      "type": "null"
+    },
+    "created_date": {
+      "type": "string"
+    },
+    "isActive": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "userId",
+    "username",
+    "password",
+    "token",
+    "expires",
+    "created_date",
+    "isActive"
+  ]
+}
